@@ -1,0 +1,1641 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "183e1463-5f13-4d66-96cd-4c622b0919f9")
+	(paper "A4")
+	(title_block
+		(title "iW-ESPMI-IND")
+		(date "2026-04-25")
+		(rev "REV2")
+		(company "Indústrias William")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ST-TF-003A:ST-TF-003A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P"
+				(at 0 17.8054 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ST-TF-003A"
+				(at 0 -20.3454 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SUNTECH_ST-TF-003A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" "Suntech"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ST-TF-003A_0_0"
+				(polyline
+					(pts
+						(xy 0 15.24) (xy 2.54 15.24)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy 2.54 10.16)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -12.7) (xy 2.54 -12.7)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -15.24) (xy 2.54 -15.24)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -17.78) (xy 0 17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 -17.78)
+					(end 10.16 17.78)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "DAT3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 15.24 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -5.08 7.62 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 10.16 0)
+					(length 5.08)
+					(name "CD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 135.382 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43e25b60-4ca4-4059-b5e9-a08b75273744")
+	)
+	(junction
+		(at 135.636 76.962)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecc82c0f-0404-4b65-93e5-a8d27a4735ac")
+	)
+	(no_connect
+		(at 138.43 91.44)
+		(uuid "4631f4ea-cc4e-4aa9-a91b-767305b1065a")
+	)
+	(wire
+		(pts
+			(xy 135.636 76.962) (xy 135.636 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e58c7a0-8022-4f68-9280-b7ef3df275c0")
+	)
+	(wire
+		(pts
+			(xy 147.828 76.962) (xy 149.86 76.962)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff8069b-cd2f-410f-8dd7-dfffd5034e05")
+	)
+	(wire
+		(pts
+			(xy 138.43 114.3) (xy 135.382 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a1f742-2549-48c5-8e3e-c8f47162b137")
+	)
+	(wire
+		(pts
+			(xy 135.636 76.962) (xy 142.748 76.962)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1adfd4-b09e-4493-a5a3-a6b87b7c115e")
+	)
+	(wire
+		(pts
+			(xy 135.382 114.3) (xy 135.382 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b54638-b669-49bc-b6b5-7a8a98d81e4f")
+	)
+	(wire
+		(pts
+			(xy 135.382 116.84) (xy 135.382 121.412)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe406ab-ea27-4a8c-820f-485271ef1538")
+	)
+	(wire
+		(pts
+			(xy 135.382 116.84) (xy 138.43 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5261e68-eaf9-4efe-9aa8-21daf23f5b8d")
+	)
+	(wire
+		(pts
+			(xy 135.636 72.644) (xy 135.636 76.962)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7179579-973c-430f-9939-cfc70e771ccf")
+	)
+	(wire
+		(pts
+			(xy 135.636 86.36) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f6b15b-71ce-4999-8d30-15251641de0e")
+	)
+	(hierarchical_label "CMD"
+		(shape input)
+		(at 138.43 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "084d278c-c1a9-449d-9d51-ba03e4cac071")
+	)
+	(hierarchical_label "DAT3"
+		(shape bidirectional)
+		(at 138.43 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73bd8f63-3edc-4aa2-b982-0b831e6a06fe")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 138.43 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7cbd1487-c337-4990-aa15-868514e580dd")
+	)
+	(hierarchical_label "DAT0"
+		(shape bidirectional)
+		(at 138.43 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c566320-5459-455d-81be-0d044cb22b82")
+	)
+	(hierarchical_label "DAT1"
+		(shape bidirectional)
+		(at 138.43 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90c7a03a-ef2b-4afd-8b4a-aa3ba3b47b61")
+	)
+	(hierarchical_label "DAT2"
+		(shape bidirectional)
+		(at 138.43 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e08ec986-bb7a-431a-830b-7f536b139dff")
+	)
+	(symbol
+		(lib_id "ST-TF-003A:ST-TF-003A")
+		(at 143.51 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0433c27c-b49b-4d6c-bb60-f12e13290485")
+		(property "Reference" "P1"
+			(at 154.686 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ST-TF-003A"
+			(at 154.686 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ST-TF-003A:SUNTECH_ST-TF-003A"
+			(at 143.51 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Suntech"
+			(at 143.51 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "76b68dd3-884d-4a5b-9579-ed6f01c5d806")
+		)
+		(pin "2"
+			(uuid "980c229c-0a7b-4845-810b-4ec8439fee7a")
+		)
+		(pin "3"
+			(uuid "303a7ce1-be16-44b1-b051-f3d03ae837cb")
+		)
+		(pin "4"
+			(uuid "9abc4fb2-e166-455d-bd20-cdf641cc1772")
+		)
+		(pin "5"
+			(uuid "588825c1-b16b-4319-803c-d67ae56d0dc0")
+		)
+		(pin "6"
+			(uuid "99072f1f-5f3e-428f-9723-2afdd3d9b596")
+		)
+		(pin "7"
+			(uuid "6d63cf20-f710-43cb-8152-c4cc559a2569")
+		)
+		(pin "8"
+			(uuid "22062413-1f0a-411a-b76f-5e7c087bce75")
+		)
+		(pin "9"
+			(uuid "a116bf47-5ffc-42a5-9302-0fdde98b156f")
+		)
+		(pin "G1"
+			(uuid "74ab6bb8-e319-47d1-ac8f-908b9cb4c456")
+		)
+		(pin "G2"
+			(uuid "c88de827-a676-4ce4-a610-71322367e595")
+		)
+		(pin "G3"
+			(uuid "6ffae8d8-e367-494c-93df-a1c9f87724de")
+		)
+		(pin "G4"
+			(uuid "85d27fb8-ec75-4053-9f2d-85d733531955")
+		)
+		(instances
+			(project "TelemetryModBus"
+				(path "/180b576a-618b-4e64-946f-6799a96a7e68/d2244332-4561-4289-b4ee-de6876a4c9fb"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+			(project "ESPMI-MINI"
+				(path "/24c58498-cf4f-452c-9499-1a956df20ea8/f54d6d22-5b38-42a5-9928-22fe2d1fe9dd"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+			(project "ESPMI_V0"
+				(path "/2ba0a607-d092-44a7-a217-a09075a913d7/c97c9587-154d-4d53-90d2-b551a65ec5fd"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+			(project "SDCARD"
+				(path "/c9722833-620f-438f-bcab-273044420736"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+			(project "iW - ESP32 IoT Tester"
+				(path "/da53cebf-186a-4837-ba35-ee9038743929/25093eee-f1b1-4a7d-a4ab-2b7ba4597ec1"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+			(project "SDCARD"
+				(path "/dfef9564-9d9f-4dd2-a3f6-f9a44dae242e"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.382 121.412 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12383100-dd4b-44a5-a62f-cf2b4f1e2fd5")
+		(property "Reference" "#PWR020"
+			(at 135.382 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.382 125.984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.382 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.382 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a437403e-94c5-4e91-87b0-d872613d5d00")
+		)
+		(instances
+			(project "TelemetryModBus"
+				(path "/180b576a-618b-4e64-946f-6799a96a7e68/d2244332-4561-4289-b4ee-de6876a4c9fb"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+			(project "ESPMI-MINI"
+				(path "/24c58498-cf4f-452c-9499-1a956df20ea8/f54d6d22-5b38-42a5-9928-22fe2d1fe9dd"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+			(project "ESPMI_V0"
+				(path "/2ba0a607-d092-44a7-a217-a09075a913d7/c97c9587-154d-4d53-90d2-b551a65ec5fd"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "SDCARD"
+				(path "/c9722833-620f-438f-bcab-273044420736"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+			(project "iW - ESP32 IoT Tester"
+				(path "/da53cebf-186a-4837-ba35-ee9038743929/25093eee-f1b1-4a7d-a4ab-2b7ba4597ec1"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+			(project "SDCARD"
+				(path "/dfef9564-9d9f-4dd2-a3f6-f9a44dae242e"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 76.962 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33c4d338-3d06-4d2c-a839-7fc34bd3730a")
+		(property "Reference" "#PWR022"
+			(at 156.21 76.962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.416 76.962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 76.962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 76.962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5000ea53-563b-45e9-961d-979e6cf6c591")
+		)
+		(instances
+			(project "TelemetryModBus"
+				(path "/180b576a-618b-4e64-946f-6799a96a7e68/d2244332-4561-4289-b4ee-de6876a4c9fb"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+			(project "ESPMI-MINI"
+				(path "/24c58498-cf4f-452c-9499-1a956df20ea8/f54d6d22-5b38-42a5-9928-22fe2d1fe9dd"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+			(project "ESPMI_V0"
+				(path "/2ba0a607-d092-44a7-a217-a09075a913d7/c97c9587-154d-4d53-90d2-b551a65ec5fd"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project "SDCARD"
+				(path "/c9722833-620f-438f-bcab-273044420736"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+			(project "iW - ESP32 IoT Tester"
+				(path "/da53cebf-186a-4837-ba35-ee9038743929/25093eee-f1b1-4a7d-a4ab-2b7ba4597ec1"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+			(project "SDCARD"
+				(path "/dfef9564-9d9f-4dd2-a3f6-f9a44dae242e"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 135.636 72.644 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40647535-34a6-4d3f-92fc-26b81e271bdc")
+		(property "Reference" "#PWR021"
+			(at 135.636 76.454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 135.636 68.326 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.636 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.636 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.636 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17dcf2f0-765d-461e-9d81-6c711ff5f9ba")
+		)
+		(instances
+			(project "TelemetryModBus"
+				(path "/180b576a-618b-4e64-946f-6799a96a7e68/d2244332-4561-4289-b4ee-de6876a4c9fb"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+			(project "ESPMI-MINI"
+				(path "/24c58498-cf4f-452c-9499-1a956df20ea8/f54d6d22-5b38-42a5-9928-22fe2d1fe9dd"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+			(project "ESPMI_V0"
+				(path "/2ba0a607-d092-44a7-a217-a09075a913d7/c97c9587-154d-4d53-90d2-b551a65ec5fd"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+			(project "SDCARD"
+				(path "/c9722833-620f-438f-bcab-273044420736"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+			(project "iW - ESP32 IoT Tester"
+				(path "/da53cebf-186a-4837-ba35-ee9038743929/25093eee-f1b1-4a7d-a4ab-2b7ba4597ec1"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+			(project "SDCARD"
+				(path "/dfef9564-9d9f-4dd2-a3f6-f9a44dae242e"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 145.288 76.962 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d3d4f16-8feb-4644-84ca-56eaaa168b1f")
+		(property "Reference" "C16"
+			(at 145.2943 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 145.2943 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 145.288 76.962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.288 76.962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 145.288 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f06c70d-7f20-4c3b-bc3a-a88d2fe41e87")
+		)
+		(pin "2"
+			(uuid "3b947c82-d8d2-45c1-9b5f-2cb493197f6d")
+		)
+		(instances
+			(project "TelemetryModBus"
+				(path "/180b576a-618b-4e64-946f-6799a96a7e68/ac4ad978-ebdb-4c1d-bf25-0de4f3e143fc"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/180b576a-618b-4e64-946f-6799a96a7e68/d2244332-4561-4289-b4ee-de6876a4c9fb"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+			(project "ESPMI-MINI"
+				(path "/24c58498-cf4f-452c-9499-1a956df20ea8/f54d6d22-5b38-42a5-9928-22fe2d1fe9dd"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+			(project "ESPMI_V0"
+				(path "/2ba0a607-d092-44a7-a217-a09075a913d7/c97c9587-154d-4d53-90d2-b551a65ec5fd"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+			(project "SDCARD"
+				(path "/c9722833-620f-438f-bcab-273044420736"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "iW - ESP32 IoT Tester"
+				(path "/da53cebf-186a-4837-ba35-ee9038743929/25093eee-f1b1-4a7d-a4ab-2b7ba4597ec1"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+			(project "SDCARD"
+				(path "/dfef9564-9d9f-4dd2-a3f6-f9a44dae242e"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

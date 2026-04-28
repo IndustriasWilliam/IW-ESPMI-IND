@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Espressif")(type "KiCad")(uri "C:/Users/lorra/Documents/kicadlibs/espressif-chips/symbols/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "HDMR-19-01-S-SM")(type "Legacy")(uri "C:/Users/lorra/Documents/kicadlibs/HDMR-19-01-S-SM/HDMR-19-01-S-SM.lib")(options "")(descr ""))
+  (lib (name "USBLC6-2SC6")(type "KiCad")(uri "C:/Users/lorra/Documents/kicadlibs/USBLC6-2SC6/USBLC6-2SC6.kicad_sym")(options "")(descr ""))
+  (lib (name "RAPC742X")(type "Legacy")(uri "C:/Users/lorra/Documents/kicadlibs/RAPC742X/RAPC742X.lib")(options "")(descr ""))
+  (lib (name "ST-TF-003A")(type "Legacy")(uri "C:/Users/lorra/Documents/kicadlibs/ST-TF-003A/ST-TF-003A.lib")(options "")(descr ""))
+  (lib (name "Everest_Semicondutor")(type "KiCad")(uri "C:/Users/lorra/Documents/kicadlibs/Everest_Semicondutor/Everest_Semicondutor.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-320D-A")(type "KiCad")(uri "C:/Users/lorra/Documents/kicadlibs/PJ-320D-A/PJ-320D-A.kicad_sym")(options "")(descr ""))
+  (lib (name "PSM712")(type "KiCad")(uri "C:/Users/Deived/Documents/kicadlibs/PSM712/PSM712.kicad_sym")(options "")(descr ""))
+)
